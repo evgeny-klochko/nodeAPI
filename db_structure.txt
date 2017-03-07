@@ -1,0 +1,26 @@
+// user
+  id
+  username
+  email
+  password
+  salt
+  role (admin / superadmin)
+
+//user token
+  id
+  user_id
+  token
+  created_at
+
+// error
+  id
+  user_id
+  error_category
+  title
+  created_at
+
+// error_category
+  id
+  title
+  critical (true, false)
+
